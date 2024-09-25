@@ -18,18 +18,20 @@ A pairing of programmers with companies is called satisfactory if it doesn't hav
 Below is an example of preferences of five companies A, B, C, D, E and five programmers 1, 2, 3, 4, 5 (the preferences decrease from the top row to the bottom row):
 
 Company Preferences of Programmers:
-A: {2,5,1,3,4}
-B: {1,2,3,4,5}
-C: {5,3,2,1,4}
-D: {1,3,2,4,5}
-E: {2,3,5,4,1}
+
+- A: {2,5,1,3,4}
+- B: {1,2,3,4,5}
+- C: {5,3,2,1,4}
+- D: {1,3,2,4,5}
+- E: {2,3,5,4,1}
 
 Programmers Preferences of Companies:
-1: {E,A,D,B,C}
-2: {D,E,B,A,C}
-3: {D,B,C,E,A}
-4: {C,B,D,A,E}
-5: {A,D,B,C,E}
+
+- 1: {E,A,D,B,C}
+- 2: {D,E,B,A,C}
+- 3: {D,B,C,E,A}
+- 4: {C,B,D,A,E}
+- 5: {A,D,B,C,E}
 
 The pairing A1 B3 C2 D4 E5 is unsatisfactory since A prefers programmer 2 to programmer 1 and programmer 2 prefers company A to company C. Find a satisfactory pairing; you may use it as your test example.
 
