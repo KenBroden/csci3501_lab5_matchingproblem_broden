@@ -3,6 +3,8 @@ import java.util.Arrays;
 import java.util.List;
 
 public class Main {
+
+    // Program written by Ken Broden
     public static void main(String[] args) {
 
         // Create a list of programmers
