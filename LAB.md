@@ -1,5 +1,7 @@
 # The Lab Task: Matching problem
 
+By Ken Broden
+
 ## Lab Description
 
 Your task is to design and implement an algorithm that finds a solution to the following problem:
