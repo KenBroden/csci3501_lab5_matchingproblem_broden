@@ -74,4 +74,20 @@ public class StableMatching {
             System.out.println(programmer.getId() + " is matched with " + programmer.getCurrentMatch());
         }
     }
+
+    // Method to check for stability of matches
+    public boolean isStable() {
+        for (Programmer programmer : programmers) {
+            for (String companyId : programmer.getPreferences()) {
+                if (companyId.equals(programmer.getCurrentMatch())) {
+                    break;
+                }
+                Company company = findCompany(companyId);
+                if (company.prefers(programmer.getId(), company.getCurrentMatch())) {
+                    return false;
+                }
+            }
+        }
+        return true;
+    }
 }
